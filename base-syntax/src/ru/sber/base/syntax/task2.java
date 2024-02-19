@@ -1,9 +1,13 @@
 package ru.sber.base.syntax;
+import java.util.Scanner;
 public class task2 {
     public static void main(String[] args){
-        System.out.println("Hello and welcome!");
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Введите ваше имя:");
+        String name = scanner.nextLine();
+
+
+        System.out.println("Hello, " + name + "!");
     }
 }
