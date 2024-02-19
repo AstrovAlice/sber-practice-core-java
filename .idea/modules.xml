@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-syntax/base-syntax.iml" filepath="$PROJECT_DIR$/base-syntax/base-syntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sber-practice-core-java.iml" filepath="$PROJECT_DIR$/.idea/sber-practice-core-java.iml" />
+    </modules>
+  </component>
+</project>
