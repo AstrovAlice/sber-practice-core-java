@@ -1,7 +1,5 @@
 package ru.sber.base.syntax;
-
 import java.util.Scanner;
-
 public class task4 {
     public static boolean isPrime(int n){
         if (n <= 1) {
