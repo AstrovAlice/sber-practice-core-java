@@ -1,6 +1,0 @@
-package ru.sber.base.syntax;
-public class Task7 {
-    public static void main(String[] args){
-
-    }
-}

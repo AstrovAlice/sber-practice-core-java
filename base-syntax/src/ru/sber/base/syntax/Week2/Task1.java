@@ -1,4 +1,4 @@
-package ru.sber.base.syntax;
+package ru.sber.base.syntax.Week2;
 
 import java.util.Scanner;
 
