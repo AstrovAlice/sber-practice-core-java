@@ -1,4 +1,4 @@
-package ru.sber.base.syntax.Week2;
+package Week2;
 import java.util.Scanner;
 public class Task4 {
     public static boolean isPrime(int n){
