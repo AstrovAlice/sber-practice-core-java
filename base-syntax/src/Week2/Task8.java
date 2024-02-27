@@ -1,6 +1,7 @@
 package Week2;
 
 import java.util.Random;
+import Week3.Sorter;
 
 public class Task8 {
     public static void main(String[] args){
@@ -12,20 +13,7 @@ public class Task8 {
             a[i] = random.nextInt(nmax + 1);
             System.out.print(a[i] + " ");
         }
-        for(int i = 0; i < n - 1; i++){
-            Boolean swapped = false;
-            for(int j = 0; j < n - i - 1; j ++){
-                if (a[j] > a[j + 1]){
-                    int temp = a[j];
-                    a[j] = a[j + 1];
-                    a[j + 1] = temp;
-                    swapped = true;
-                }
-            }
-            if (!swapped){
-                break;
-            }
-        }
+        Sorter.BubbleSort(a);
         System.out.println();
         for(int i = 0; i < n; i++){
             System.out.print(a[i] + " ");
