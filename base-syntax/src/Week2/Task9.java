@@ -10,16 +10,19 @@ public class Task9 {
         System.out.println("Попробуйте её угадать.");
         char ch = 'И';
         do{
-            System.out.println("Вариант ответа: ");
+            System.out.print("Вариант ответа: ");
             ch = scanner.next().charAt(0);
-            while((ch <= 'A') || ('Z' <= ch)){
-                System.out.print("");
+            System.out.print("");
+            while((ch < 'A') || ('Z' < ch)){
+                System.out.println("Вводите букву от A до Z!");
+                System.out.print("Вариант ответа: ");
                 ch = scanner.next().charAt(0);
+                System.out.print("");
             }
             if (ch > randChar){
-                System.out.print("Ищи букву, котоаря перед ней в алфавите.");
+                System.out.println("Ищи букву, котоаря перед ней в алфавите.");
             } else if (ch < randChar){
-                System.out.print("Ищи букву, котоаря после неё в алфавите.");
+                System.out.println("Ищи букву, котоаря после неё в алфавите.");
             }
         }while(ch != randChar);
         System.out.print("Верно!");
