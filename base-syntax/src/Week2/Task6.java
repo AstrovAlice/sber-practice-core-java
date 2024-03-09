@@ -1,7 +1,5 @@
 package Week2;
-
 import java.util.Random;
-
 public class Task6 {
     public static void main(String[] args){
         Random random = new Random();
@@ -21,7 +19,7 @@ public class Task6 {
                 aMaxI = i;
             }
         }
-        int aAverage = sum/nmax;
+        float aAverage = sum/nmax;
         System.out.println("Максимальное значение = [" + aMax +"] находится в элементе под индексом " + aMaxI);
         System.out.print("Среднее значение = " + aAverage);
     }

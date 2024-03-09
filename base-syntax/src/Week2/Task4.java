@@ -16,10 +16,6 @@ public class Task4 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число:");
         int n = scanner.nextInt();
-        if (isPrime(n)){
-            System.out.println("Да");
-        }else{
-            System.out.println("Нет");
-        }
+        System.out.println(isPrime(n) ? "Да" : "Нет");
     }
 }

@@ -6,13 +6,12 @@ public class Task7 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("a: ");
-        int a = scanner.nextInt();
+        float a = scanner.nextFloat();
         System.out.print("b: ");
-        int b = scanner.nextInt();
+        float b = scanner.nextFloat();
         System.out.print("c: ");
-        int c = scanner.nextInt();
-
-        double D = b*b - 4*a*c;
+        float c = scanner.nextFloat();
+        float D = b*b - 4*a*c;
         if (D < 0){
             System.out.print("корней нет.");
         } else if (D == 0) {
