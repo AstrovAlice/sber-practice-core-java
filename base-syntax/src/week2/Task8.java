@@ -1,7 +1,7 @@
-package Week2;
+package week2;
 
 import java.util.Random;
-import Week3.Sorter;
+import week3.Sorter;
 
 public class Task8 {
     public static void main(String[] args){

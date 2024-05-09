@@ -1,4 +1,4 @@
-package Week2;
+package week2;
 public class Task3 {
     public static void main(String[] args){
         for (int i = 1; i <= 6; i++) {

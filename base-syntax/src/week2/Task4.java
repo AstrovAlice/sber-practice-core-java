@@ -1,4 +1,4 @@
-package Week2;
+package week2;
 import java.util.Scanner;
 public class Task4 {
     public static boolean isPrime(int n){
