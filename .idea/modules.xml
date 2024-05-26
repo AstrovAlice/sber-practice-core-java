@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Sber-practice-core-java.iml" filepath="$PROJECT_DIR$/.idea/Sber-practice-core-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/base-syntacx/base-syntacx.iml" filepath="$PROJECT_DIR$/base-syntacx/base-syntacx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sber-practice-core-java/base-syntacx/base-syntacx.iml" filepath="$PROJECT_DIR$/../sber-practice-core-java/base-syntacx/base-syntacx.iml" />
     </modules>
   </component>
 </project>
